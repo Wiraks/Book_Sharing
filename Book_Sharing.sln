@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_Sharing", "Book_Sharing\Book_Sharing.csproj", "{58ADAF81-9994-4754-8F59-B0EB2D6ECB40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58ADAF81-9994-4754-8F59-B0EB2D6ECB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ADAF81-9994-4754-8F59-B0EB2D6ECB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ADAF81-9994-4754-8F59-B0EB2D6ECB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ADAF81-9994-4754-8F59-B0EB2D6ECB40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75CA5EFD-36FB-4E52-9D47-B6BC7F191CA5}
+	EndGlobalSection
+EndGlobal
