@@ -61,6 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookSharingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookSharingDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +121,17 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ModelBazy.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="BookSharingDataSet.xsc">
+      <DependentUpon>BookSharingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BookSharingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BookSharingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BookSharingDataSet.xss">
+      <DependentUpon>BookSharingDataSet.xsd</DependentUpon>
+    </None>
     <None Include="ModelBazy.edmx.diagram">
       <DependentUpon>ModelBazy.edmx</DependentUpon>
     </None>
